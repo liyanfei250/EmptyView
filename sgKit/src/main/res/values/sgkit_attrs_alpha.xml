@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="SGAlphaButton">
+    <attr name="sgkit_alpha_pressed" />
+    <attr name="sgkit_alpha_disabled" />
+  </declare-styleable>
+
+  <declare-styleable name="SGAlphaTextView">
+    <attr name="sgkit_alpha_pressed" />
+    <attr name="sgkit_alpha_disabled" />
+  </declare-styleable>
+</resources>

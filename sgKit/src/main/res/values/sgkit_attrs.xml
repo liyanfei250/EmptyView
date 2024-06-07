@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <attr name="sgkit_backgroundColor" format="color" />
+  <attr name="sgkit_borderColor" format="color" />
+  <attr name="sgkit_borderWidth" format="dimension" />
+  <attr name="sgkit_linkColor" format="color" />
+  <attr name="sgkit_orientation" format="enum">
+    <enum name="horizontal" value="0" />
+    <enum name="vertical" value="1" />
+  </attr>
+  <attr name="sgkit_title" format="string" />
+  <declare-styleable name="SGKitTextAppearance">
+    <attr name="android:textSize" />
+    <attr name="android:textColor" />
+    <attr name="android:textColorHint" />
+    <attr name="android:textStyle" />
+    <attr name="android:typeface" />
+    <attr name="textAllCaps" />
+    <attr name="android:shadowColor" />
+    <attr name="android:shadowDy" />
+    <attr name="android:shadowDx" />
+    <attr name="android:shadowRadius" />
+  </declare-styleable>
+</resources>

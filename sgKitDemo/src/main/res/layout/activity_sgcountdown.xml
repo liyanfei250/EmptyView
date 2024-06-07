@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sgkit_fill_white"
+        tools:context=".SGCollapseActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="基础样式" />
+
+            <com.sungrowpower.kit.countdown.SGCountDown
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sgkit_autoStart="true"
+                app:sgkit_time="5"
+                app:sgkit_timeDataType="hours" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义格式" />
+
+            <com.sungrowpower.kit.countdown.SGCountDown
+                android:id="@+id/sgc_count_down_custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sgkit_format="day|hour|minute|second"
+                app:sgkit_autoStart="true"
+                app:sgkit_time="2"
+                app:sgkit_timeDataType="days" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义样式" />
+
+            <com.sungrowpower.kit.countdown.SGCountDown
+                android:id="@+id/sgc_count_down_custom_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sgkit_format="day|hour|minute|second"
+                app:sgkit_autoStart="true"
+                app:sgkit_time="200"
+                app:sgkit_timeDataType="seconds" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="毫秒级渲染" />
+
+            <com.sungrowpower.kit.countdown.SGCountDown
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sgkit_millisecond="true"
+                app:sgkit_autoStart="true"
+                app:sgkit_time="100000"
+                app:sgkit_timeDataType="milliseconds" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="手动控制" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.sungrowpower.kit.countdown.SGCountDown
+                    android:id="@+id/sgc_count_down"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:sgkit_autoStart="false"
+                    app:sgkit_time="6000"
+                    app:sgkit_timeDataType="seconds" />
+
+                <TextView
+                    android:id="@+id/tv_reset"
+                    style="@style/CountDownButtonStyle"
+                    android:layout_marginStart="@dimen/px24"
+                    android:text="重置" />
+
+                <TextView
+                    android:id="@+id/tv_start"
+                    style="@style/CountDownButtonStyle"
+                    android:layout_marginStart="@dimen/px24"
+                    android:layout_marginEnd="@dimen/px48"
+                    android:text="开始" />
+
+                <TextView
+                    android:id="@+id/tv_pause"
+                    style="@style/CountDownButtonStyle"
+                    android:layout_marginStart="@dimen/px24"
+                    android:layout_marginEnd="@dimen/px48"
+                    android:text="暂停"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="未来时间点(当前时间+200秒)" />
+
+            <com.sungrowpower.kit.countdown.SGCountDown
+                android:id="@+id/sgc_count_down_future"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sgkit_format="hour|minute|second"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

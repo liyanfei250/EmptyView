@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="px24">8dp</dimen>
+  <dimen name="px36">12dp</dimen>
+  <dimen name="px42">14dp</dimen>
+  <dimen name="px48">16dp</dimen>
+</resources>

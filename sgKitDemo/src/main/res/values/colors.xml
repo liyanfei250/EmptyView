@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="title_bg_color">#F7F7F7</color>
+
+  <!--图例颜色1-->
+  <color name="key_color_a">#ff7300</color>
+  <!--图例颜色2-->
+  <color name="key_color_b">#2196f3</color>
+  <!--图例颜色3-->
+  <color name="key_color_c">#1cc40a</color>
+  <!--图例颜色4-->
+  <color name="key_color_d">#ff1919</color>
+  <!--图例颜色5-->
+  <color name="key_color_e">#a117e6</color>
+  <!--图例颜色6-->
+  <color name="key_color_f">#17e6e6</color>
+
+</resources>

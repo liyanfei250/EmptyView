@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--折叠面板-->
+    <declare-styleable name="SGCollapse">
+        <!--标题内容-->
+        <attr name="sgkit_title"/>
+        <!--标题颜色-->
+        <attr name="sgkit_titleColor" format="color|reference" />
+        <!--标题字体大小-->
+        <attr name="sgkit_titleSize" format="dimension" />
+        <!--折叠的图标-->
+        <attr name="sgkit_iconImageDown" format="string" />
+        <!--展开的图标-->
+        <attr name="sgkit_iconImageUp" format="string" />
+        <!--展开折叠的图标颜色-->
+        <attr name="sgkit_iconImageColor" format="color|reference" />
+        <!--展开折叠的图标字体大小-->
+        <attr name="sgkit_iconImageSize" format="dimension" />
+        <!--标题左边的图标 -->
+        <attr name="sgkit_leftIcon" format="string" />
+        <!--标题左边的图标颜色-->
+        <attr name="sgkit_leftIconColor" format="color|reference" />
+        <!--标题左边的图标字体大小-->
+        <attr name="sgkit_leftIconSize" format="dimension" />
+        <!--标题右边的图标 -->
+        <attr name="sgkit_rightIcon" format="string" />
+        <!--标题右边的图标颜色-->
+        <attr name="sgkit_rightIconColor" format="color|reference" />
+        <!--标题右边的图标字体大小-->
+        <attr name="sgkit_rightIconSize" format="dimension" />
+        <!--是否隐藏图标 默认false-->
+        <attr name="sgkit_hiddenIcon" format="boolean" />
+        <!--是否不可展开 默认false-->
+        <attr name="sgkit_disabled" format="boolean" />
+        <!--面板内容（折叠展开view中的内容）-->
+        <attr name="sgkit_content"/>
+        <!--面板颜色-->
+        <attr name="sgkit_contentColor"/>
+        <!--面板字体大小-->
+        <attr name="sgkit_contentSize"/>
+        <!--是否展开 默认false-->
+        <attr name="sgkit_expand" format="boolean" />
+        <!--是否需要动画 默认true-->
+        <attr name="sgkit_hasAnimation" format="boolean" />
+        <!--动画时间 默认300ms-->
+        <attr name="sgkit_animationTimes" format="integer" />
+    </declare-styleable>
+
+    <!--倒计时-->
+    <declare-styleable name="SGCountDown">
+        <!--倒计时时间单位-->
+        <attr name="sgkit_timeDataType" format="enum">
+            <enum name="days" value="1" />
+            <enum name="hours" value="2" />
+            <enum name="minutes" value="3" />
+            <enum name="seconds" value="4" />
+            <enum name="milliseconds" value="5" />
+        </attr>
+        <attr name="sgkit_format">
+            <flag name="day" value="1" />
+            <flag name="hour" value="2" />
+            <flag name="minute" value="4" />
+            <flag name="second" value="8" />
+<!--            <flag name="millisecond" value="16" />-->
+        </attr>
+        <!--倒计时时长，单位根据timeDataType默认秒-->
+        <attr name="sgkit_time" format="integer" />
+        <!--自定义格式 需传入固定格式如：(%02dDays,%02d时,%02d分,%02d秒) 或者 (,%02d:,%02d:,%02d)-->
+        <!--        <attr name="sgkit_scdFormat" format="string" />-->
+        <!--是否自动开始倒计时 默认false-->
+        <attr name="sgkit_autoStart" format="boolean" />
+        <!--是否开启毫秒级渲染(如果sgkit_scdFormat未设置秒，则不显示) 默认false-->
+        <attr name="sgkit_millisecond" format="boolean" />
+        <!--字体颜色-->
+        <attr name="sgkit_textColor" />
+        <!--字体大小-->
+        <attr name="sgkit_textSize" />
+    </declare-styleable>
+
+    <!--文本缩略-->
+    <declare-styleable name="SGEllipsis">
+        <!--最大显示高度，单位 px，优先级高于 maxLine-->
+        <attr name="sgkit_maxHeight" format="dimension" />
+        <!--最大显示行数 默认1-->
+        <attr name="sgkit_maxLine" format="integer" />
+        <!--文本结尾处（缩略符之前）需要过滤掉的字符 需传入英文逗号分割-->
+        <attr name="sgkit_endExcludes" format="string" />
+        <!--是否开启缩略 默认true-->
+        <attr name="sgkit_ellipsis" format="boolean" />
+        <!--自定义缩略符文本，文本缩略时插入文本尾部 默认...-->
+        <attr name="sgkit_ellipsisText" format="string" />
+        <!--收起时的可点击文本 为空不展示-->
+        <attr name="sgkit_collapsedText" format="string" />
+        <!--展开时的可点击文本 为空不展示-->
+        <attr name="sgkit_expandedText" format="string" />
+        <!--可点击文本字体颜色-->
+        <attr name="sgkit_textColor" />
+        <!--可点击文本字体大小 单位 px 默认跟随text字体大小-->
+        <attr name="sgkit_textSize" />
+    </declare-styleable>
+</resources>

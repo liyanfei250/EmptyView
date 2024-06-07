@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  >
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <TextView
+      style="@style/UIBaseTitleStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="基础样式" />
+
+    <com.sungrowpower.kit.empty.SGEmptyView
+      android:id="@+id/empty_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+    <TextView
+      style="@style/UIBaseTitleStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="自定义" />
+
+
+    <com.sungrowpower.kit.empty.SGEmptyView
+      android:id="@+id/empty_view_two"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:ev_empty_title="默认界面"
+      app:ev_show_type="error_layout"
+      android:visibility="gone"
+      />
+
+    <com.sungrowpower.kit.empty.SGEmptyView
+      android:id="@+id/empty_view_three"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:ev_empty_title="暂无数据"
+      app:ev_empty_titleTextColor="@color/sgkit_text_title"
+      app:ev_show_type="nodate_list_layout"
+      android:visibility="gone"
+      />
+
+    <com.sungrowpower.kit.empty.SGEmptyView
+      android:id="@+id/empty_view_four"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:ev_empty_title="无搜索数据"
+      app:ev_empty_titleTextColor="@color/sgkit_text_title"
+      app:ev_show_type="nodate_search_layout"
+      android:visibility="gone"
+      />
+
+    <com.sungrowpower.kit.empty.SGEmptyView
+      android:id="@+id/empty_view_five"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:ev_buttonHeight="30dp"
+      app:ev_buttonMarginTop="4dp"
+      app:ev_buttonRadius="50dp"
+      app:ev_buttonTextPaddingBottom="6dp"
+      app:ev_buttonTextPaddingLeft="20dp"
+      app:ev_buttonTextPaddingRight="20dp"
+      app:ev_buttonTextPaddingTop="6dp"
+      app:ev_buttonTextSize="14sp"
+      app:ev_emptyDrawableMarginTop="10dp"
+      app:ev_empty_backgroundColor="#FFFFFFFF"
+      app:ev_empty_button="Create Now"
+      app:ev_empty_buttonBackgroundColor="@color/sgkit_brand_routine"
+      app:ev_empty_buttonTextColor="#FFFFFFFF"
+      app:ev_empty_drawable="@drawable/sgkit_no_data"
+      app:ev_empty_drawableTint="#FFFFFF"
+      app:ev_empty_title="暂无数据"
+      app:ev_empty_titleTextColor="@color/sgkit_text_dark_gray"
+      app:ev_imageHeight="120dp"
+      app:ev_imageWidth="120dp"
+      app:ev_image_scaleType="centerCrop"
+      app:ev_textButtonMarginTop="1dp"
+      app:ev_empty_textSize="12sp"
+      app:ev_titleTextMarginTop="1dp"
+      app:ev_empty_titleTextSize="14sp"
+      />
+  </LinearLayout>
+</ScrollView>

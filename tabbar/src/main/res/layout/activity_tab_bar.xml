@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:background="#d1d1d1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="普工用法"
+            android:textColor="@android:color/darker_gray"></TextView>
+
+        <com.sungrowpower.tabbar.TabBar
+
+            android:id="@+id/tb_1"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconHeight="23dp"
+            app:tb_iconWidth="23dp"
+
+            app:tb_middleIconHeight="20dp"
+            app:tb_middleIconWidth="20dp"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="12sp"
+            app:tb_underline_color="#DDDDDD"
+            app:tb_underline_height="1dp"
+
+            />
+
+
+        <com.sungrowpower.tabbar.TabBar
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+           android:layout_marginTop="5dp"
+            android:id="@+id/tb_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            app:tb_iconHeight="23dp"
+            app:tb_iconWidth="23dp"
+            app:tb_iconMargin="10dp"
+            app:tb_indicator_color="#2C97DE"
+            app:tb_indicator_corner_radius="1dp"
+            app:tb_indicator_height="0dp"
+            app:tb_indicator_width="30dp"
+            app:tb_middleIconHeight="20dp"
+            app:tb_middleIconWidth="20dp"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="12sp"
+            app:tb_underline_color="#DDDDDD"
+            app:tb_underline_height="1dp"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="仅图标"
+            android:textColor="@android:color/darker_gray"></TextView>
+
+        <com.sungrowpower.tabbar.TabBar
+            android:id="@+id/tb_2"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconHeight="23dp"
+            app:tb_iconWidth="23dp"
+            app:tb_indicator_height="0dp"
+            app:tb_titleVisible="false"
+            app:tb_underline_color="#DDDDDD"
+            app:tb_underline_height="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="仅标题"
+            android:textColor="@android:color/darker_gray"></TextView>
+
+        <com.sungrowpower.tabbar.TabBar
+            android:id="@+id/tb_3"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconVisible="false"
+            app:tb_indicator_height="2dp"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="18dp"
+            app:tb_underline_color="#DDDDDD"
+            app:tb_underline_height="1dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="徽标提示"
+            android:textColor="@android:color/darker_gray"></TextView>
+
+        <com.sungrowpower.tabbar.TabBar
+
+            android:id="@+id/tb_4"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconHeight="23dp"
+            app:tb_iconWidth="23dp"
+            app:tb_indicator_color="#2C97DE"
+            app:tb_indicator_corner_radius="1dp"
+            app:tb_indicator_height="0dp"
+            app:tb_indicator_width="30dp"
+            app:tb_middleIconHeight="20dp"
+            app:tb_middleIconWidth="20dp"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="带指示器"
+            android:textColor="@android:color/darker_gray"></TextView>
+
+        <com.sungrowpower.tabbar.TabBar
+
+            android:id="@+id/tb_5"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconHeight="23dp"
+            app:tb_iconVisible="false"
+            app:tb_iconWidth="23dp"
+            app:tb_indicator_color="#2C97DE"
+            app:tb_indicator_corner_radius="1dp"
+            app:tb_indicator_height="2dp"
+            app:tb_indicator_margin_left="20dp"
+            app:tb_indicator_margin_right="20dp"
+            app:tb_middleIconHeight="20dp"
+            app:tb_middleIconWidth="20dp"
+            app:tb_textBold="BOTH"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="18dp" />
+
+        <com.sungrowpower.tabbar.TabBar
+           android:layout_marginTop="5dp"
+            android:id="@+id/tb_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconHeight="23dp"
+            app:tb_iconVisible="false"
+            app:tb_iconWidth="23dp"
+            app:tb_indicator_color="#2C97DE"
+            app:tb_indicator_corner_radius="1dp"
+            app:tb_indicator_height="2dp"
+            app:tb_indicator_width="25sp"
+            app:tb_indicator_margin_bottom="5dp"
+            app:tb_middleIconHeight="20dp"
+            app:tb_middleIconWidth="20dp"
+            app:tb_textBold="BOTH"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="18dp" />
+
+
+        <com.sungrowpower.tabbar.TabBar
+              android:layout_marginTop="20dp"
+            android:id="@+id/tb_6"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#ffffff"
+            app:tb_iconHeight="20dp"
+            app:tb_iconWidth="20dp"
+            app:tb_indicator_color="#2C97DE"
+            app:tb_indicator_corner_radius="1dp"
+            app:tb_indicator_height="0dp"
+            app:tb_indicator_width="30dp"
+            app:tb_middleIconHeight="40dp"
+            app:tb_middleIconWidth="40dp"
+            app:tb_textSelectColor="#2C97DE"
+            app:tb_textUnselectColor="#66000000"
+            app:tb_textsize="12dp"
+
+            />
+
+    </LinearLayout>
+</layout>

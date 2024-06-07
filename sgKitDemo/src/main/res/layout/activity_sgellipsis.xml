@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sgkit_fill_white"
+        tools:context=".SGCollapseActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="文本多行缩略" />
+
+            <com.sungrowpower.kit.ellipsis.SGEllipsis
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/px48"
+                android:text="@string/hello_world_times"
+                android:textColor="@color/sgkit_text_title"
+                android:textSize="@dimen/px42"
+                app:sgkit_maxLine="2" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="控制展开收起" />
+
+            <com.sungrowpower.kit.ellipsis.SGEllipsis
+                android:id="@+id/se_ellipsis_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/px48"
+                android:text="@string/hello_world_times"
+                android:textColor="@color/sgkit_text_title"
+                android:textSize="@dimen/px42"
+                app:sgkit_ellipsis="true"
+                app:sgkit_expandedText="MMMMMMMMMM"
+                app:sgkit_collapsedText="MMMMMMMMMM"
+                app:sgkit_textColor="@color/sgkit_brand_click"
+                app:sgkit_textSize="@dimen/px80"
+                app:sgkit_maxLine="2" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自适应＋尾部字符过滤( ,w,o)" />
+
+            <com.sungrowpower.kit.ellipsis.SGEllipsis
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/px48"
+                android:text="@string/hello_world_times"
+                android:textColor="@color/sgkit_text_title"
+                android:textSize="@dimen/px42"
+                app:sgkit_endExcludes=" ,w,o"
+                app:sgkit_ellipsis="true"
+                app:sgkit_maxLine="2" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="富文本缩略" />
+
+            <com.sungrowpower.kit.ellipsis.SGEllipsis
+                android:id="@+id/se_ellipsis_rich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/px48"
+                android:text="@string/hello_world_times"
+                android:textColor="@color/sgkit_text_title"
+                android:textSize="@dimen/px42"
+                app:sgkit_ellipsis="true"
+                app:sgkit_maxLine="2" />
+
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="文本最大高度缩略(210px)" />
+
+            <com.sungrowpower.kit.ellipsis.SGEllipsis
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/px48"
+                android:text="@string/hello_world_times"
+                android:textColor="@color/sgkit_text_title"
+                android:textSize="@dimen/px42"
+                app:sgkit_maxHeight="@dimen/px210"
+                app:sgkit_ellipsis="true"
+                app:sgkit_expandedText="MMMMMMMMMM"
+                app:sgkit_collapsedText="MMMMMMMMMM"
+                app:sgkit_textColor="@color/sgkit_brand_click"
+                app:sgkit_textSize="@dimen/px80"
+                app:sgkit_ellipsisText="..."
+                app:sgkit_maxLine="2" />
+            <TextView
+                style="@style/UIBaseTitleStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

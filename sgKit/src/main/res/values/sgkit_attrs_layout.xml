@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="SGKitLayout">
+    <attr name="android:maxWidth" />
+    <attr name="android:maxHeight" />
+    <attr name="android:minWidth" />
+    <attr name="android:minHeight" />
+    <attr name="sgkit_bottomDividerHeight" format="dimension" />
+    <attr name="sgkit_bottomDividerColor" format="color|reference" />
+    <attr name="sgkit_bottomDividerInsetLeft" format="dimension" />
+    <attr name="sgkit_bottomDividerInsetRight" format="dimension" />
+    <attr name="sgkit_topDividerHeight" format="dimension" />
+    <attr name="sgkit_topDividerColor" format="color|reference" />
+    <attr name="sgkit_topDividerInsetLeft" format="dimension" />
+    <attr name="sgkit_topDividerInsetRight" format="dimension" />
+    <attr name="sgkit_leftDividerWidth" format="dimension" />
+    <attr name="sgkit_leftDividerColor" format="color|reference" />
+    <attr name="sgkit_leftDividerInsetTop" format="dimension" />
+    <attr name="sgkit_leftDividerInsetBottom" format="dimension" />
+    <attr name="sgkit_rightDividerWidth" format="dimension" />
+    <attr name="sgkit_rightDividerColor" format="color|reference" />
+    <attr name="sgkit_rightDividerInsetTop" format="dimension" />
+    <attr name="sgkit_rightDividerInsetBottom" format="dimension" />
+    <attr name="sgkit_radius" />
+    <attr name="sgkit_borderColor" />
+    <attr name="sgkit_borderWidth" />
+    <attr name="sgkit_outerNormalColor" format="color|reference" />
+    <attr name="sgkit_hideRadiusSide" format="enum">
+      <enum name="none" value="0" />
+      <enum name="top" value="1" />
+      <enum name="right" value="2" />
+      <enum name="bottom" value="3" />
+      <enum name="left" value="4" />
+    </attr>
+    <attr name="sgkit_showBorderOnlyBeforeL" format="boolean" />
+    <attr name="sgkit_shadowElevation" format="dimension" />
+    <attr name="sgkit_useThemeGeneralShadowElevation" format="boolean" />
+    <attr name="sgkit_shadowAlpha" format="float" />
+    <attr name="sgkit_outlineInsetTop" format="dimension" />
+    <attr name="sgkit_outlineInsetLeft" format="dimension" />
+    <attr name="sgkit_outlineInsetRight" format="dimension" />
+    <attr name="sgkit_outlineInsetBottom" format="dimension" />
+    <attr name="sgkit_outlineExcludePadding" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="SGButton">
+    <attr name="sgkit_pressTextState" />
+
+    <attr name="sgkit_unPressTextState" />
+    <attr name="sgkit_disableTextState" />
+
+    <attr name="sgkit_pressTextStateColor" />
+    <attr name="sgkit_unPressTextStateColor" />
+    <attr name="sgkit_disableTextStateColor" />
+
+    <attr name="sgkit_defaultTextColor" />
+  </declare-styleable>
+
+
+  <declare-styleable name="SGDrawable">
+    <!--背景的状态和颜色-->
+    <!--状态-->
+    <attr name="sgkit_pressBackgroundState" />
+    <attr name="sgkit_unPressBackgroundState" />
+    <attr name="sgkit_disableBackgroundState" />
+    <!--数组-->
+    <attr name="sgkit_pressBackgroundStateColor" />
+    <attr name="sgkit_unPressBackgroundStateColor" />
+    <attr name="sgkit_disableBackgroundStateColor" />
+    <!--边框的状态和颜色-->
+    <!--状态-->
+    <attr name="sgkit_pressBorderState" />
+    <attr name="sgkit_unPressBorderState" />
+    <attr name="sgkit_disableBorderState" />
+    <!--颜色-->
+    <attr name="sgkit_pressBorderStateColor" />
+    <attr name="sgkit_unPressBorderStateColor" />
+    <attr name="sgkit_disableBorderStateColor" />
+
+
+    <attr name="sgkit_defaultBackgroundColor" />
+    <attr name="sgkit_shapeSolidColor" format="color" />
+    <attr name="sgkit_defaultBorderColor" format="color" />
+    <attr name="sgkit_strokeWidth" />
+    <attr name="sgkit_shapeRadius" format="dimension" />
+    <attr name="sgkit_shapeTopLeftRadius" format="dimension" />
+    <attr name="sgkit_shapeTopRightRadius" format="dimension" />
+    <attr name="sgkit_shapeBottomRightRadius" format="dimension" />
+    <attr name="sgkit_shapeBottomLeftRadius" format="dimension" />
+    <attr name="sgkit_isRadiusAdjustBounds" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="SGCheckBox">
+    <!-- 展示模式 -->
+    <attr name="sgkit_mode">
+      <!-- 左边 -->
+      <enum name="left" value="0" />
+      <!-- 右边-->
+      <enum name="right" value="1" />
+    </attr>
+    <!-- 文字 -->
+    <attr name="sgkit_text" format="string" />
+    <attr name="sgkit_textSize" />
+    <attr name="sgkit_iconSize" format="dimension" />
+    <!-- 未选中状态下图标 -->
+    <attr name="sgkit_unSelectIcon" format="string" />
+    <!-- 未选中状态下图标颜色 -->
+    <attr name="sgkit_unSelectIconColor" format="color" />
+    <!-- 选中状态下图标 -->
+    <attr name="sgkit_selectedIcon" format="string" />
+    <!-- 选中状态下图标颜色 -->
+    <attr name="sgkit_selectedIconColor" format="color" />
+  </declare-styleable>
+
+  <declare-styleable name="SGFontIcon">
+    <attr name="sgkit_isHtml" format="boolean" />
+  </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><!--文字的按压色，以及背景边框和填充色的设置-->
+<resources>
+  <attr name="sgkit_alpha_pressed" format="float" />
+  <attr name="sgkit_alpha_disabled" format="float" />
+  <attr name="sgkit_general_shadow_elevation" format="dimension" />
+  <attr name="sgkit_general_shadow_alpha" format="float" />
+
+  <!--组件文字的大小-->
+  <attr name="sgkit_textSize" format="dimension" />
+  <!--组件文字的颜色-->
+  <attr name="sgkit_textColor" format="color" />
+
+  <attr name="sgkit_background" format="color" />
+  <!--背景框的圆角的大小-->
+  <attr name="sgkit_radius" format="dimension" />
+  <attr name="sgkit_topLeftRadius" format="dimension" />
+  <attr name="sgkit_topRightRadius" format="dimension" />
+  <attr name="sgkit_bottomRightRadius" format="dimension" />
+  <attr name="sgkit_bottomLeftRadius" format="dimension" />
+
+  <!--边线的宽度-->
+  <attr name="sgkit_strokeWidth" format="dimension" />
+
+  <!--控件的最小宽度-->
+  <attr name="sgkit_min_width" format="dimension" />
+  <!--控件的最大宽度-->
+  <attr name="sgkit_max_width" format="dimension" />
+  <!--控件的最小高度-->
+  <attr name="sgkit_min_height" format="dimension" />
+  <!--控件的最大高度-->
+  <attr name="sgkit_max_height" format="dimension" />
+  <!--边的大小-->
+  <attr name="sgkit_border" format="dimension" />
+
+  <!--组件文字的大小-->
+  <attr name="sgkit_content" format="dimension" />
+  <!--组件文字的颜色-->
+  <attr name="sgkit_contentColor" format="color" />
+  <!--组件文字的字体大小-->
+  <attr name="sgkit_contentSize" format="dimension" />
+
+  <!--背景按压状态的颜色对应的状态列表-->
+  <attr name="sgkit_pressBackgroundState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--背景抬起状态的颜色对应的状态列表-->
+  <attr name="sgkit_unPressBackgroundState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--背景禁用状态的颜色对应的状态列表-->
+  <attr name="sgkit_disableBackgroundState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--背景按压状态的颜色-->
+  <attr name="sgkit_pressBackgroundStateColor" format="color" />
+  <!--背景抬起状态的颜色-->
+  <attr name="sgkit_unPressBackgroundStateColor" format="color" />
+  <!--背景禁用状态的颜色-->
+  <attr name="sgkit_disableBackgroundStateColor" format="color" />
+
+
+  <!--文字按压状态的颜色对应的状态列表-->
+  <attr name="sgkit_pressTextState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--文字非按压状态的颜色对应的状态列表-->
+  <attr name="sgkit_unPressTextState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--文字禁用状态下的颜色对应的状态列表-->
+  <attr name="sgkit_disableTextState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--文字按压状态颜色-->
+  <attr name="sgkit_pressTextStateColor" format="color" />
+  <!--文字抬起状态颜色-->
+  <attr name="sgkit_unPressTextStateColor" format="color" />
+  <!--文字禁用状态颜色-->
+  <attr name="sgkit_disableTextStateColor" format="color" />
+  <!--文字默认状态颜色-->
+  <attr name="sgkit_defaultTextColor" format="color" />
+  <!--背景默认的状态颜色-->
+  <attr name="sgkit_defaultBackgroundColor" format="color" />
+
+  <!--边框按压状态的颜色对应的状态列表-->
+  <attr name="sgkit_pressBorderState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--边框抬起状态的颜色对应的状态列表-->
+  <attr name="sgkit_unPressBorderState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--边框禁用状态的颜色对应的状态列表-->
+  <attr name="sgkit_disableBorderState">
+    <flag name="pressed" value="0x00000001" />
+    <flag name="focused" value="0x00000010" />
+    <flag name="enable" value="0x00000100" />
+    <flag name="selected" value="0x00001000" />
+    <flag name="unpressed" value="0x00010000" />
+    <flag name="unfocused" value="0x00100000" />
+    <flag name="disable" value="0x01000000" />
+    <flag name="unselected" value="0x10000000" />
+  </attr>
+  <!--边框按压状态的颜色-->
+  <attr name="sgkit_pressBorderStateColor" format="color" />
+  <!--边框抬起状态的颜色-->
+  <attr name="sgkit_unPressBorderStateColor" format="color" />
+  <!--边框禁用状态的颜色-->
+  <attr name="sgkit_disableBorderStateColor" format="color" />
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/tv_day"
+        style="@style/CountDownTitleStyle"
+        android:background="@drawable/bg_countdown_button_corner"
+        android:textColor="@color/sgkit_brand_routine"
+        android:padding="@dimen/px12"
+        android:layout_marginEnd="@dimen/px12"
+        android:text="日"/>
+
+    <TextView
+        android:id="@+id/tv_hour"
+        style="@style/CountDownTitleStyle"
+        android:background="@drawable/bg_countdown_button_corner"
+        android:textColor="@color/sgkit_brand_routine"
+        android:padding="@dimen/px12"
+        android:text="时"/>
+
+    <TextView
+        style="@style/CountDownTitleStyle"
+        android:textColor="@color/sgkit_brand_routine"
+        android:padding="@dimen/px12"
+        android:text=":"/>
+
+    <TextView
+        android:id="@+id/tv_minute"
+        style="@style/CountDownTitleStyle"
+        android:background="@drawable/bg_countdown_button_corner"
+        android:textColor="@color/sgkit_brand_routine"
+        android:padding="@dimen/px12"
+        android:text="分"/>
+
+    <TextView
+        style="@style/CountDownTitleStyle"
+        android:textColor="@color/sgkit_brand_routine"
+        android:padding="@dimen/px12"
+        android:text=":"/>
+
+    <TextView
+        android:id="@+id/tv_second"
+        style="@style/CountDownTitleStyle"
+        android:background="@drawable/bg_countdown_button_corner"
+        android:textColor="@color/sgkit_brand_routine"
+        android:padding="@dimen/px12"
+        android:text="秒"/>
+</LinearLayout>

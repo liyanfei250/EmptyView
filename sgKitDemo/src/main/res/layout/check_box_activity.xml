@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+      style="@style/UIBaseTitleStyle"
+      android:text="默认" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:orientation="horizontal"
+      android:padding="@dimen/px48">
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_select"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_text="Option Content" />
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_unselect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_text="Option Content" />
+
+    </LinearLayout>
+
+    <TextView
+      style="@style/UIBaseTitleStyle"
+      android:text="禁用状态" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:orientation="horizontal"
+      android:padding="@dimen/px48">
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_disable_select"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_text="Option Content" />
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_disable_unselect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_text="Option Content" />
+
+    </LinearLayout>
+
+    <TextView
+      style="@style/UIBaseTitleStyle"
+      android:text="右勾选" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:orientation="vertical"
+      >
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px48"
+        app:sgkit_mode="right"
+        app:sgkit_text="Option Content" />
+
+      <View
+        android:id="@+id/view_divider"
+        style="@style/DividerStyle" />
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_right_disable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/px48"
+        app:sgkit_mode="right"
+        app:sgkit_text="Option Content" />
+    </LinearLayout>
+
+    <TextView
+      style="@style/UIBaseTitleStyle"
+      android:text="自定义图标" />
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:orientation="horizontal"
+      android:padding="@dimen/px48">
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_custom1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_selectedIcon="&#xe70e;"
+        app:sgkit_text="Custom shape"
+        app:sgkit_unSelectIcon="&#xe70d;" />
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_custom2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_selectedIconColor="#FF8100"
+        app:sgkit_text="Custom color"
+        app:sgkit_unSelectIcon="&#xe6bc;" />
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffffff"
+      android:orientation="horizontal"
+      android:padding="@dimen/px48">
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_custom3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_iconSize="@dimen/px48"
+        app:sgkit_text="Custom size"
+        app:sgkit_textSize="@dimen/px48" />
+
+      <com.sungrowpower.kit.checkbox.SGCheckBox
+        android:id="@+id/sgkit_cb_custom4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:sgkit_selectedIcon="&#xe98d;"
+        app:sgkit_text="Custom icon"
+        app:sgkit_unSelectIcon="" />
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+</layout>

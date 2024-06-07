@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+android {
+  compileSdkVersion 31
+
+  defaultConfig {
+    applicationId "com.sungrowpower.demo"
+    minSdkVersion 21
+    targetSdkVersion 31
+    versionCode 1
+    versionName "1.0"
+    sourceSets {
+      //设置kotlin文件夹
+      main.java.srcDirs += 'src/main/kotlin'
+        }
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+      debug {
+        minifyEnabled false //是否混淆代码
+        shrinkResources false //删除无用代码和资源
+        zipAlignEnabled false //内存对齐
+        debuggable true
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+      }
+      release {
+        minifyEnabled false //是否混淆代码
+        shrinkResources false //删除无用代码和资源
+        zipAlignEnabled false //内存对齐
+        proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+      }
+    }
+
+  compileOptions {
+    sourceCompatibility 1.8
+    targetCompatibility 1.8
+  }
+  buildFeatures {
+    dataBinding = true
+  }
+}
+//https://info-support.sungrowpower.com/video/mp4/2022/01/01/阳光云App创建电站调测视频中文版_V2.1.6.20211229.mp4
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation project(":sgKit")
+  implementation project(":tabbar")
+  implementation project(":sgkit-photo")
+  implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.7.20'
+  implementation 'org.jetbrains.kotlin:kotlin-reflect:1.7.20'
+  implementation 'androidx.appcompat:appcompat:1.1.0'
+  implementation 'androidx.recyclerview:recyclerview:1.2.1'
+  implementation 'com.sungrowpower.util:baseutil:1.2.63.oversea3'
+  implementation 'com.sungrowpower.module:LibResource:v3520'
+}

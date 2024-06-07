@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <!--*********************************************
+  *              Config Color                  *
+  **********************************************-->
+
+
+  <color name="sgkit_config_color_separator">#DEE0E2</color>
+  <!-- 品牌色 -->
+  <!-- 主色 Brand Color 1  -->
+
+  <!-- 点击 Primary-5 -->
+  <color name="sgkit_brand_click">#D26200</color>
+  <!-- 常规 Primary-4 -->
+  <color name="sgkit_brand_routine">#FF8100</color>
+  <!-- 一般禁用 Primary-3 -->
+  <color name="sgkit_brand_disabled">#FFD18B</color>
+  <!-- 文字禁用 Primary-2 -->
+  <color name="sgkit_brand_text_disabled">#FFE6BA</color>
+  <!-- 浅色/白底悬浮 Primary-1 -->
+  <color name="sgkit_brand_light_color">#FFF7E8</color>
+
+  <!-- 中性色 -->
+
+  <!-- 线条 line-1  -->
+  <color name="sgkit_divider_color">#E8E8E8</color>
+
+  <!-- 填充 Fill  -->
+
+  <!-- 重/特殊场景 fill-4 -->
+  <color name="sgkit_fill_special">#BFBFBF</color>
+  <!-- 深/灰底 fill-3 -->
+  <color name="sgkit_fill_dark_gray">#E8E8E8</color>
+  <!-- 常规/白底悬浮 fill-2 -->
+  <color name="sgkit_fill_routine">#F7F7F7</color>
+  <!-- 浅/禁用 fill-1 -->
+  <color name="sgkit_fill_disabled">#FAFAFA</color>
+  <!-- 纯白填充 white-->
+  <color name="sgkit_fill_white">#FFFFFF</color>
+
+  <!-- 文字 Text  -->
+
+  <!-- 强调/正文标题 Text-5 -->
+  <color name="sgkit_text_title">#222222</color>
+  <!-- 描述性文字/段落/辅助说明文字 Text-4 -->
+  <color name="sgkit_text_dark_gray">#666666</color>
+  <!-- TabBar未选中文字/可视化图表辅助说明 Text-3 -->
+  <color name="sgkit_text_light_gray">#999999</color>
+  <!-- 置灰/禁用信息 Text-2 -->
+  <color name="sgkit_text_disabled">#CCCCCC</color>
+  <!-- 纯白文字 Text-1 -->
+  <color name="sgkit_text_white">#FFFFFF</color>
+
+  <!-- 功能色  -->
+  <!-- 成功 Success  -->
+
+  <!-- 点击 Success-7 -->
+  <color name="sgkit_success_click">#1A9280</color>
+  <!-- 常规 Success-6 -->
+  <color name="sgkit_success_routine">#28A991</color>
+  <!-- 禁用 Success-3 -->
+  <color name="sgkit_success_disabled">#8DDDC6</color>
+  <!-- 特殊场景 Success-2 -->
+  <color name="sgkit_success_special">#B8EEDD</color>
+  <!-- 浅色背景 Success-1 -->
+  <color name="sgkit_success_light_bg">#E8FFF7</color>
+
+  <!-- 警告/提醒 Warning/Notice  -->
+
+  <!-- 点击 Warning-7 -->
+  <color name="sgkit_warning_click">#C97B15</color>
+  <!-- 常规 Warning-6 -->
+  <color name="sgkit_warning_routine">#F3A022</color>
+  <!-- 禁用 Warning-3 -->
+  <color name="sgkit_warning_disabled">#FADC97</color>
+  <!-- 特殊场景 Warning-2 -->
+  <color name="sgkit_warning_special">#FDECBC</color>
+  <!-- 浅色背景 Warning-1 -->
+  <color name="sgkit_warning_light_bg">#FFFAE8</color>
+
+  <!-- 错误 Danger  -->
+
+  <!-- 点击 Danger-7 -->
+  <color name="sgkit_error_click">#CC3032</color>
+  <!-- 常规 Danger-6 -->
+  <color name="sgkit_error_routine">#F6504D</color>
+  <!-- 禁用 Danger-3 -->
+  <color name="sgkit_error_disabled">#FBB2A9</color>
+  <!-- 特殊场景 Danger-2 -->
+  <color name="sgkit_error_special">#FDD0C8</color>
+  <!-- 浅色背景 Danger-1 -->
+  <color name="sgkit_error_light_bg">#FFECE8</color>
+  <color name="sgkit_unselect">#BFBFBF</color>
+  <color name="sgkit_disable_select">#FFD18B</color>
+  <color name="sgkit_disable_unselect">#F7F7F7</color>
+</resources>

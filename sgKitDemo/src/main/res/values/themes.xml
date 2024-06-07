@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--UI图标题部分样式-->
+    <style name="UIBaseTitleStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/sgkit_text_light_gray</item>
+        <item name="android:textSize">@dimen/px42</item>
+        <item name="android:background">@color/title_bg_color</item>
+        <item name="android:paddingStart">@dimen/px48</item>
+        <item name="android:paddingEnd">@dimen/px48</item>
+        <item name="android:paddingTop">@dimen/px48</item>
+        <item name="android:paddingBottom">@dimen/px24</item>
+    </style>
+    <!--UI图分割线样式-->
+    <style name="UIDividerStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sgkit_divider_height</item>
+        <item name="android:background">@color/sgkit_divider_color</item>
+    </style>
+</resources>

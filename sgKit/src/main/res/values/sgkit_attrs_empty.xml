@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <declare-styleable name="EmptyView">
+    <attr name="ev_gravity">
+      <enum name="top" value="48" />
+      <enum name="center" value="17" />
+      <enum name="bottom" value="80" />
+    </attr>
+    <attr name="ev_font" format="reference" />
+    <attr name="ev_empty_titleTextSize" format="dimension" />
+    <attr name="ev_empty_textSize" format="dimension" />
+    <attr name="ev_buttonTextSize" format="dimension" />
+    <attr name="ev_imageWidth" format="dimension" />
+    <attr name="ev_imageHeight" format="dimension" />
+    <attr name="ev_image_scaleType">
+      <enum name="matrix" value="0" />
+      <enum name="fitXY" value="1" />
+      <enum name="fitStart" value="2" />
+      <enum name="fitCenter" value="3" />
+      <enum name="fitEnd" value="4" />
+      <enum name="center" value="5" />
+      <enum name="centerCrop" value="6" />
+      <enum name="centerInside" value="7" />
+    </attr>
+    <attr name="ev_buttonWidth" format="dimension" />
+    <attr name="ev_buttonHeight" format="dimension" />
+    <attr name="ev_buttonMarginTop" format="dimension" />
+    <attr name="ev_emptyDrawableMarginTop" format="dimension" />
+    <attr name="ev_titleTextMarginTop" format="dimension" />
+    <attr name="ev_buttonRadius" format="dimension" />
+    <attr name="ev_textButtonMarginTop" format="dimension" />
+    <attr name="ev_buttonTextPaddingTop" format="dimension" />
+    <attr name="ev_buttonTextPaddingLeft" format="dimension" />
+    <attr name="ev_buttonTextPaddingRight" format="dimension" />
+    <attr name="ev_buttonTextPaddingBottom" format="dimension" />
+
+    <attr name="ev_show_type">
+      <enum name="default_layout" value="0" />
+      <enum name="error_layout" value="1" />
+      <enum name="nodate_list_layout" value="2" />
+      <enum name="nodate_search_layout" value="3" />
+    </attr>
+
+    <!-- Empty state attributes -->
+    <attr name="ev_empty_title" format="string" />
+    <attr name="ev_empty_titleTextColor" format="color" />
+    <attr name="ev_empty_text" format="string" />
+    <attr name="ev_empty_textColor" format="color" />
+    <attr name="ev_empty_button" format="string" />
+    <attr name="ev_empty_buttonTextColor" format="color" />
+    <attr name="ev_empty_buttonBackgroundColor" format="color" />
+    <attr name="ev_empty_drawable" format="reference" />
+    <attr name="ev_empty_drawableTint" format="color" />
+    <attr name="ev_empty_backgroundColor" format="color" />
+
+  </declare-styleable>
+
+</resources>

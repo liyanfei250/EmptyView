@@ -1,0 +1,2 @@
+include ':sgKitDemo', ':sgKit',':tabbar'
+include ':sgkit-photo', ':sgKit'

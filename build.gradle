@@ -1,0 +1,30 @@
+apply from: "config.gradle"
+buildscript {
+
+  repositories {
+    google()
+    maven {
+      allowInsecureProtocol(true)
+      url "http://app.sungrow.cn:8081/maven/"
+    }
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:4.2.2'
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.20"
+    classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.28.1"
+  }
+}
+
+allprojects {
+  repositories {
+    google()
+    maven {
+      allowInsecureProtocol(true)
+      url "http://app.sungrow.cn:8081/maven/"
+    }
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}

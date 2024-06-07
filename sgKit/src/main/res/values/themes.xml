@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--折叠面板标题部分样式-->
+    <style name="BaseTitleStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/sgkit_text_title</item>
+        <item name="android:textSize">@dimen/px48</item>
+    </style>
+    <!--折叠面板内容部分样式-->
+    <style name="BaseContentStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/px36</item>
+        <item name="android:textColor">@color/sgkit_text_light_gray</item>
+        <item name="android:textSize">@dimen/px42</item>
+    </style>
+    <!--分割线样式-->
+    <!--内容部分样式-->
+  <!--分割线样式-->
+    <style name="DividerStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/sgkit_divider_height</item>
+        <item name="android:background">@color/sgkit_divider_color</item>
+        <item name="android:layout_marginStart">@dimen/px48</item>
+    </style>
+
+    <!--倒计时TextView部分样式-->
+    <style name="CountDownTitleStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/sgkit_text_title</item>
+        <item name="android:textSize">@dimen/px48</item>
+    </style>
+
+    <!--倒计时Button部分样式-->
+    <style name="CountDownButtonStyle" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/sgkit_brand_routine</item>
+        <item name="android:background">@drawable/bg_countdown_button_corner</item>
+        <item name="android:textSize">@dimen/px42</item>
+        <item name="android:paddingStart">@dimen/px48</item>
+        <item name="android:paddingEnd">@dimen/px48</item>
+        <item name="android:paddingTop">@dimen/px12</item>
+        <item name="android:paddingBottom">@dimen/px12</item>
+    </style>
+</resources>

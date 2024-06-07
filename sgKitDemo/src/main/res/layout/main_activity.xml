@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+    <TextView
+        android:id="@+id/tv_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:layout_marginTop="@dimen/px48"
+        android:background="@color/brand_color"
+        android:gravity="center"
+        android:text="button"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_collapse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:layout_marginTop="@dimen/px48"
+        android:background="@color/brand_color"
+        android:gravity="center"
+        android:text="折叠面板 Collapse"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tv_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:layout_marginTop="@dimen/px48"
+        android:background="@color/brand_color"
+        android:gravity="center"
+        android:text="checkbox"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:layout_marginTop="@dimen/px48"
+        android:background="@color/brand_color"
+        android:gravity="center"
+        android:text="dialog"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:background="@color/brand_color"
+        android:layout_marginTop="@dimen/px48"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="倒计时 CountDown"
+        android:textSize="20dp"
+        />
+        
+        <TextView
+        android:id="@+id/tv_empty"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:background="@color/brand_color"
+        android:layout_marginTop="@dimen/px48"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+         android:text="空状态 Empty"
+        android:textSize="20dp"  />
+        
+    <TextView
+        android:id="@+id/tv_tabbar"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:background="@color/brand_color"
+        android:layout_marginTop="@dimen/px48"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="标签栏 Tabbar"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_ellipsis"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="@dimen/px48"
+        android:background="@color/brand_color"
+        android:layout_marginTop="@dimen/px48"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="文本缩略 Ellipsis"
+        android:textSize="20dp"
+        />
+
+  </LinearLayout>
+
+</layout>
